@@ -24,7 +24,7 @@ for (const button of buttons) {
         else if (buttonText == 'C') {
             screen.innerText = '';
         }
-        else if (buttonText == 'Del') {
+        else if (buttonText == 'D') {
             let lastNumberIndex = screenValue.length - 1;
             let lastNumber = screenValue[lastNumberIndex];
             screenValue = screenValue.replace(lastNumber, '');
